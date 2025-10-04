@@ -231,7 +231,7 @@ The file manager works out of the box with sensible defaults. However, you can m
 **Q: Permission denied errors**
 ```bash
 # Make sure the script is executable
-chmod +x main.py
+chmod +x filemanager.py
 
 # Check file permissions in the directories you're browsing
 ```
@@ -246,7 +246,7 @@ chmod +x main.py
 
 For debugging, you can run with Python directly:
 ```bash
-python3 main.py
+python3 filemanager.py
 ```
 
 Any errors will be displayed when the program exits.
